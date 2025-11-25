@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Project</title>
+    </head>
+<body>
+<h4>Sign Up Form</h4>
+    <fieldset>
+        <legend> Your personal <detail</legend>
+        <form method="post">
+        <label for="Username"> Username: </label>
+        <br>
+        <input type="text" id="Username" name="Username" placeholder="Enter your Username" required="maxlenght="20">
+        <label for="email">Enter your Email:</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="abc@example.com">
+    <label for="pass">Password:</label>
+    <br>
+    <input type="password" id="pass" name="password"placeholder ="Enter your 8 digit Password" maxlength="8" required="">
+    <label for="cpass"> Confirm Password:</label>
+    <br>
+<input type="password" id="cpass" name="ConfirmPassword"placeholder ="Enter your 8 digit Password" maxlength="8" required="">
+<label for="phoneno"> Enter your Phone Number</label>
+<br>
+<input type="tel" name="phoneno" id="phoneno" placeholder="Enter your PhoneNo">
+<label >" Gender:"</label>
+<br>
+<input type="radio" name="gender" id="male" value="male">
+<label for="male">Male</label>
+<br>
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">Female</label>
+<br>
+<input type="radio" name="gender" id="other"value="other">
+<label for="other">other</label>
+<br>
+<label for="favcolor"> Select your favorite Color: </label>
+<input type="color" name="favcolor" id="favcolor">
+<br>
+<label for="date"> Select your Hiredate:</label>
+<input type="date" name="date" id="date">
+<br>
+<label for="myfile"> Upload your Certificate</label>
+<br>
+<input type="file" name="myfile" id="myfile">
+<br>
+<input type="checkbox" name="term">
+<label >I accept the <a href="#"> Term and conditions</a>.</label>
+<br>
+<input type="submit" value="SignUp">
+<input type="reset" value="Reset">
+</form>
+</fieldset>
+</body>
+</html>
